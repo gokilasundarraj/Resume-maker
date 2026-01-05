@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/resume-maker/static/css/main.31a7a8da.css",
+    "main.js": "/resume-maker/static/js/main.2948ded2.js",
+    "static/js/977.e4c03697.chunk.js": "/resume-maker/static/js/977.e4c03697.chunk.js",
+    "static/js/455.60cee7ed.chunk.js": "/resume-maker/static/js/455.60cee7ed.chunk.js",
+    "static/js/453.ab9078b0.chunk.js": "/resume-maker/static/js/453.ab9078b0.chunk.js",
+    "static/media/fullLogo.png": "/resume-maker/static/media/fullLogo.2b1320a27e52007650ff.png",
+    "static/media/logo.png": "/resume-maker/static/media/logo.ae95930399039303ac89.png",
+    "index.html": "/resume-maker/index.html",
+    "main.31a7a8da.css.map": "/resume-maker/static/css/main.31a7a8da.css.map",
+    "main.2948ded2.js.map": "/resume-maker/static/js/main.2948ded2.js.map",
+    "977.e4c03697.chunk.js.map": "/resume-maker/static/js/977.e4c03697.chunk.js.map",
+    "455.60cee7ed.chunk.js.map": "/resume-maker/static/js/455.60cee7ed.chunk.js.map",
+    "453.ab9078b0.chunk.js.map": "/resume-maker/static/js/453.ab9078b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31a7a8da.css",
+    "static/js/main.2948ded2.js"
+  ]
+}
