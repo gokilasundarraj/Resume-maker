@@ -32,7 +32,7 @@ export default function Preview() {
   const resumeRef = useRef();
  
   useEffect(() => {
-  axios.get("http://localhost:3500/profile")
+  axios.get("https://resume-maker-cxmh.onrender.com/profiles")
     .then((res) => {
       if (Array.isArray(res.data) && res.data.length > 0) {
         setProfile(res.data[res.data.length - 1]);
