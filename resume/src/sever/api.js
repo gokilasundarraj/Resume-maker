@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://resume-maker-cxmh.onrender.com/profiles";
 
 export const getUsers = () =>
   fetch(`${API_URL}/users`).then(res => res.json());
