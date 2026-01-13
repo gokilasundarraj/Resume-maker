@@ -6,11 +6,11 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(cors());
-server.use(jsonServer.bodyParser);   // ⭐ THIS LINE IS MANDATORY
+server.use(jsonServer.bodyParser);  
 server.use(middlewares);
 server.use(router);
 
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT;
 server.listen(PORT, () => {
   console.log("JSON Server running on port", PORT);
 });
