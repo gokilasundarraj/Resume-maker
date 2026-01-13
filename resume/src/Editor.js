@@ -121,7 +121,7 @@ export default function Editor() {
         objectives: objective ? [objective, ...data.objectives] : data.objectives,
       };
 
-      await axios.post("http://localhost:3500/profile", updatedData);
+      await axios.post("https://resume-maker-cxmh.onrender.com/profiles", updatedData);
 
       alert("Resume saved successfully!");
       navigate("/preview");
@@ -133,10 +133,10 @@ export default function Editor() {
 
   const handleDelete = async () => {
     try {
-      const res = await axios.get("http://localhost:3500/profile");
+      const res = await axios.get("https://resume-maker-cxmh.onrender.com/profiles");
 
       for (let item of res.data) {
-        await axios.delete(`http://localhost:3500/profile/${item.id}`);
+        await axios.delete(`https://resume-maker-cxmh.onrender.com/profiles/${item.id}`);
       }
 
       setData({
@@ -159,7 +159,7 @@ export default function Editor() {
       alert("All data deleted successfully!");
     } catch (err) {
       console.error(err);
-      alert("❌ Failed to delete from API");
+      alert("Failed to delete from API");
     }
   };
 
